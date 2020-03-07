@@ -10,13 +10,13 @@ html,body {
 }
 
 a {
-  color: aquamarine;
+  color: #abeee6;
   text-decoration: none;
 }
 
 h1 {
   padding-bottom: 20px;
-  color: tomato;
+  color: #ff9190;
 }
 
 .container {
@@ -31,12 +31,12 @@ h1 {
   display: inline-block;
   font-size: 18px;
   padding: 13px 46px;
-  background-color: tomato;
+  background-color: #ff9190;
   border-radius: 30px;
 }
 
 #navbar a {
-  color: aquamarine;
+  color: #abeee6;
 }
 
 #navbar .logo {
@@ -60,7 +60,7 @@ h1 {
 }
 
 body {
-  background-color: navy;
+  background-color: #1c1e57;
 }
 
 #showcase .showcase-content {
@@ -74,16 +74,16 @@ body {
 }
 
 .text-primary {
-  color: aquamarine;
+  color: #abeee6;
   font-size: 41px;
 }
 
 .tek {
-  color: tomato;
+  color: #ff9190;
 }
 
 .home {
-  color: tomato;
+  color: #ff9190;
 }
 
 
