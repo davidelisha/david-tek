@@ -4,97 +4,86 @@
   box-sizing: border-box;
 }
 
-/* Main Styling*/
-html,body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
+html,
 body {
-  line-height: 1.5;
-}
-
-h1 {
-  line-height: 1.5em; 
-}
-
-ul {
-  list-style: none;
-}
-
-p{
-  margin: .5ren 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7em;
 }
 
 a {
-  color: aquamarine;
+  color: #abeee6;
   text-decoration: none;
 }
 
-#header {
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-color: navy;
-  padding: 1em 5em;
-  color: brown;
+h1 {
+  padding-bottom: 20px;
+  color: #ff9190;
+  font-weight: 100;
 }
 
 .container {
   margin: auto;
+  max-width: 1400px;
   overflow: auto;
   padding: 0 20px;
 }
 
-#main-nav {
-  padding: 1em 0em;
+.button {
+  padding-top: 100px;
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 46px;
+  background-color: #ff9190;
+  border-radius: 30px;
+}
+
+#navbar a {
+  color: #abeee6;
+}
+
+#navbar .logo {
+  float: left;
   padding-top: 20px;
 }
 
-.showcase {
-  display: block;
-  text-align: center;
-  /* width: 85%; */
-  padding-top: 50px;
-}
-
-.l-heading {
-  display: inline-block;
-  text-align: center;
-  font-size: 45px;
-}
-
-#main-nav {
-  padding: 1em 3em;
-  padding-top: 40px;
-}
-
-#main-nav .container ul li {
-  float: right;
+#navbar ul {
   list-style: none;
+  float: right;
 }
 
-#main-nav .container ul li a {
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
   display: block;
   padding: 20px;
 }
 
-.showcase {
-  display: block;
-  width: 85% 85%;
+body {
+  background-color: #1c1e57;
 }
 
-.button {
-  padding-top: 100px;
+#showcase .showcase-content {
+  text-align: center;
+  padding-top: 170px;
 }
 
-.btn {
-  display: inline-block;
-  font-size: 18px;
-  color: aquamarine;
-  background: brown;
-  padding: 8px 30px;
-  border: none;
-  border-radius: 30px;
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
 }
 
+.text-primary {
+  color: #abeee6;
+  font-size: 41px;
+}
 
+.tek {
+  color: #ff9190;
+}
+
+.home {
+  color: #ff9190;
+}
