@@ -25,6 +25,7 @@ h1 {
 .container {
   margin: auto;
   max-width: 1400px;
+  width: 80vw;
   overflow: auto;
   padding: 0 20px;
 }
@@ -66,7 +67,7 @@ body {
 }
 
 #showcase .showcase-content {
-  text-align: center;
+  /* text-align: center; */
   padding-top: 170px;
 }
 
@@ -86,4 +87,19 @@ body {
 
 .home {
   color: #ff9190;
+}
+
+.main-content {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.main-content .line {
+  width: 13px;
+  background-color: #ff9190;
+  margin-right: 2em;
+}
+
+.main-content h1 {
+  padding: 0;
 }
